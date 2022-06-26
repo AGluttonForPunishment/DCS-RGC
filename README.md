@@ -83,7 +83,7 @@ Random amount of units between 1 and 10.
 
 6:<br>
 _uCount = math.random(1,10) <br>
-rgc.SpawnRGC(2, 2, 1, _uCount, 'Average', 10 , nil , 9, nil, 'TargetTriggerZone')
+rgc.SpawnRGC(2, 2, 1, _uCount, 'Hard', 10 , nil , 9, nil, 'TargetTriggerZone')
 <br>
 Country: 2 (USA)<br>
 Coalition list of units: Blue<br>
