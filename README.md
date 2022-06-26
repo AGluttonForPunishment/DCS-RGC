@@ -26,7 +26,6 @@ Examples:
 rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , nil, 19)
 
 <br>
-<br>
 
 Country: Russia
 Coalition list of units: Red
@@ -36,7 +35,6 @@ Skill of units: Avarage
 Driving Speed of units: 10
 SpawnZone not used : nil (must be nil if not used)
 Spawn at Airbase ID : 19 (SpawnZone or SpawnAirbaseID must be used)
-<br>
 <br>
 
 If no Target base ID or Zone is used, then the script will find a airbase with the other coalition to attack.
