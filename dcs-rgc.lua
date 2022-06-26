@@ -18,7 +18,7 @@ https://github.com/AGluttonForPunishment/
 
 
 ED FORUM:
-
+https://forum.dcs.world/topic/303693-dcs-rgc-a-random-ground-convoy-creator/
 
 
 My DCS Servers:
@@ -36,7 +36,7 @@ Special thank you to : https://wiki.hoggitworld.com/
 and MIST
 for the massive help it has been to create this script.
 
-And a special thank you to "Grimes" at the ED Forums for helpinf me with my first coding steps a few years ago :)
+And a special thank you to "Grimes" at the ED Forums for helping me with my first coding steps a few years ago :)
 
 
 See the example mission for how to use the script.
