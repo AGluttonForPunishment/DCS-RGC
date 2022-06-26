@@ -71,6 +71,7 @@ used TargetZone to attack
 
 5:<br>
 _uCount = math.random(1,10)
+<br>
 rgc.SpawnRGC(0, 1, 2, _uCount, 'Average', 10 , nil , 9, nil 'TargetTriggerZone')
 
 <br>
@@ -81,10 +82,11 @@ Random amount of units between 1 and 10.
 <br>
 
 6:<br>
-rgc.SpawnRGC(2, 2, 1, _uCount, 'Average', 10 , nil , 9, nil 'TargetTriggerZone')
-Country: 2 (USA)
-Coalition list of units: Blue
-Target Coalition: 1 (Red)
+rgc.SpawnRGC(2, 2, 1, _uCount, 'Average', 10 , nil , 9, nil, 'TargetTriggerZone')
+<br>
+Country: 2 (USA)<br>
+Coalition list of units: Blue<br>
+Target Coalition: 1 (Red)<br>
 
 <br>
 ("unitTypeRedTbl" and "unitTypeBlueTbl" in the scrit file reflect the coalition you are spawning)
