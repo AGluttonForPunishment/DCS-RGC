@@ -19,7 +19,8 @@ number SpawnAirbaseID (or Nil), number TargetAirbaseId (or Nil),string TriggerZo
 
 Examples:
 
-1: rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , nil, 19)
+1:
+rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , nil, 19)
 
 Country: Russia
 Coalition list of units: Red
@@ -34,20 +35,25 @@ If no Target base ID or Zone is used, then the script will find a airbase with t
 
 
 
-2: rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , 'TestSpawnZone')
+2:
+rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , 'TestSpawnZone')
 
 Spawnzone used, if no more arguments are used, SpawnAirbaseID does not need to be filled out. Has to be Nil if more are used.
 
 
 
-3: rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , 'TestSpawnZone', nil, 10)
+3:
+rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , 'TestSpawnZone', nil, 10)
 
 Used target Airbase 10
 
 
-4: rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , nil , 9, nil 'TargetTriggerZone')
+
+4:
+rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , nil , 9, nil 'TargetTriggerZone')
 
 used TargetZone to attack
+
 
 
 5:
@@ -55,6 +61,8 @@ _uCount = math.random(1,10)
 rgc.SpawnRGC(0, 1, 2, _uCount, 'Average', 10 , nil , 9, nil 'TargetTriggerZone')
 
 Random amount of units between 1 and 10.
+
+
 
 6:
 rgc.SpawnRGC(2, 2, 1, _uCount, 'Average', 10 , nil , 9, nil 'TargetTriggerZone')
