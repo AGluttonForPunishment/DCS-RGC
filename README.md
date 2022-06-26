@@ -3,7 +3,7 @@ Random Ground Convoy for DCS (Digital Combat Simulator)
 
 - How to install
 
-In the Mission editor add the script in to the mission as a file at mission start or use the do script to read the script from a file location.
+In the Mission editor add the script in to the mission as a file with condition "time more" after MIST is loaded or use the do script to read the script from a file location after MIST is loaded.
 
 Example File location with Do script:<br>
 assert(loadfile("D:\\my scripts\\DCS-RGC\\dcs-rgc.lua"))()
