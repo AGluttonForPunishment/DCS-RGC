@@ -13,7 +13,7 @@ assert(loadfile("D:\\my scripts\\DCS-RGC\\dcs-rgc.lua"))()
 
 Syntax:<br>
 string
-rgc.SpawnRGC(number CountryID,number SpawnCoalition ,number CoalitonIDToAttack ,number GroupSize ,string Skill, number Speed ,string SpawnZoneName (Or Nil),
+rgc.spawn(number CountryID,number SpawnCoalition ,number CoalitonIDToAttack ,number GroupSize ,string Skill, number Speed ,string SpawnZoneName (Or Nil),
 number SpawnAirbaseID (or Nil), number TargetAirbaseId (or Nil),string TriggerZone Name (or no value) )
 <br>
 <br>
@@ -23,7 +23,7 @@ Examples:
 <br>
 
 1:<br>
-rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , nil, 19)
+rgc.spawn(0, 1, 2, 10, 'Average', 10 , nil, 19)
 
 <br>
 
@@ -43,7 +43,7 @@ If no Target base ID or Zone is used, then the script will find a airbase with t
 <br>
 
 2:<br>
-rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , 'TestSpawnZone')
+rgc.spawn(0, 1, 2, 10, 'Average', 10 , 'TestSpawnZone')
 <br>
 <br>
 Spawnzone used, if no more arguments are used, SpawnAirbaseID does not need to be filled out. Has to be Nil if more are used.
@@ -52,7 +52,7 @@ Spawnzone used, if no more arguments are used, SpawnAirbaseID does not need to b
 <br>
 
 3:<br>
-rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , 'TestSpawnZone', nil, 10)
+rgc.spawn(0, 1, 2, 10, 'Average', 10 , 'TestSpawnZone', nil, 10)
 <br>
 <br>
 Used target Airbase 10
@@ -61,7 +61,7 @@ Used target Airbase 10
 <br>
 
 4:<br>
-rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , nil , 9, nil 'TargetTriggerZone')
+rgc.spawn(0, 1, 2, 10, 'Average', 10 , nil , 9, nil 'TargetTriggerZone')
 <br>
 <br>
 used TargetZone to attack
@@ -72,7 +72,7 @@ used TargetZone to attack
 5:<br>
 _uCount = math.random(1,10)
 <br>
-rgc.SpawnRGC(0, 1, 2, _uCount, 'Average', 10 , nil , 9, nil 'TargetTriggerZone')
+rgc.spawn(0, 1, 2, _uCount, 'Average', 10 , nil , 9, nil 'TargetTriggerZone')
 
 <br>
 <br>
@@ -83,7 +83,7 @@ Random amount of units between 1 and 10.
 
 6:<br>
 _uCount = math.random(1,10) <br>
-rgc.SpawnRGC(2, 2, 1, _uCount, 'Hard', 10 , nil , 9, nil, 'TargetTriggerZone')
+rgc.spawn(2, 2, 1, _uCount, 'Hard', 10 , nil , 9, nil, 'TargetTriggerZone')
 <br>
 Country: 2 (USA)<br>
 Coalition list of units: Blue<br>
