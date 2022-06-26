@@ -11,7 +11,7 @@ assert(loadfile("D:\\my scripts\\DCS-RGC\\dcs-rgc.lua"))()
 <br>
 - How to use
 
-Syntax:
+Syntax:<br>
 string
 rgc.SpawnRGC(number CountryID,number SpawnCoalition ,number CoalitonIDToAttack ,number GroupSize ,string Skill, number Speed ,string SpawnZoneName (Or Nil),
 number SpawnAirbaseID (or Nil), number TargetAirbaseId (or Nil),string TriggerZone Name (or no value) )
@@ -22,7 +22,7 @@ Examples:
 <br>
 <br>
 
-1:
+1:<br>
 rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , nil, 19)
 
 <br>
@@ -36,7 +36,7 @@ Skill of units: Avarage
 Driving Speed of units: 10
 SpawnZone not used : nil (must be nil if not used)
 Spawn at Airbase ID : 19 (SpawnZone or SpawnAirbaseID must be used)
-
+<br>
 <br>
 
 If no Target base ID or Zone is used, then the script will find a airbase with the other coalition to attack.
@@ -44,44 +44,45 @@ If no Target base ID or Zone is used, then the script will find a airbase with t
 <br>
 <br>
 
-2:
+2:<br>
 rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , 'TestSpawnZone')
-
+<br>
 <br>
 Spawnzone used, if no more arguments are used, SpawnAirbaseID does not need to be filled out. Has to be Nil if more are used.
 
 <br>
 <br>
 
-3:
+3:<br>
 rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , 'TestSpawnZone', nil, 10)
 <br>
-
+<br>
 Used target Airbase 10
 
 <br>
 <br>
 
-4:
+4:<br>
 rgc.SpawnRGC(0, 1, 2, 10, 'Average', 10 , nil , 9, nil 'TargetTriggerZone')
-
+<br>
 <br>
 used TargetZone to attack
 
 <br>
 <br>
 
-5:
+5:<br>
 _uCount = math.random(1,10)
 rgc.SpawnRGC(0, 1, 2, _uCount, 'Average', 10 , nil , 9, nil 'TargetTriggerZone')
 
+<br>
 <br>
 Random amount of units between 1 and 10.
 
 <br>
 <br>
 
-6:
+6:<br>
 rgc.SpawnRGC(2, 2, 1, _uCount, 'Average', 10 , nil , 9, nil 'TargetTriggerZone')
 Country: 2 (USA)
 Coalition list of units: Blue
