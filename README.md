@@ -9,6 +9,10 @@ Example File location with Do script:<br>
 assert(loadfile("D:\\my scripts\\DCS-RGC\\dcs-rgc.lua"))()
 <br>
 <br>
+Test mission is included!
+
+<br>
+<br>
 - How to use
 
 Syntax:<br>
