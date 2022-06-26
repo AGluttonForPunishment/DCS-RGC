@@ -5,7 +5,7 @@ Random Ground Convoy for DCS (Digital Combat Simulator)
 
 In the Mission editor add the script in to the mission as a file at mission start or use the do script to read the script from a file location.
 
-File location with Do script:<br>
+Example File location with Do script:<br>
 assert(loadfile("D:\\my scripts\\DCS-RGC\\dcs-rgc.lua"))()
 <br>
 <br>
