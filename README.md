@@ -1,5 +1,5 @@
 # DCS-RGC
-Random Ground Convoy for DCS (Digital Combat Simulator)
+Random Ground Convoy for DCS (Digital Combat Simulator)<br>
 by A Glutton For Punishment (Old nick Kanelbolle)
 
 - How to install
