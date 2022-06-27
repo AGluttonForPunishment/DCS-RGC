@@ -415,7 +415,7 @@ function rgc.spawn(CountryID, spawnCoalition, AttackCoalition, GroupSize, Skill,
 						myBaseTblBlueTargets[_tabCounter] = infoBases
 						
 				--[[	--If you play on Syra, the island bases you should uncomment this
-						elseif ((infoBases.id ~= 50 and infoBases.id ~= 47)) and ((_SpawnAtID ~= 50 and _SpawnAtID ~= 47)) then
+						elseif ((infoBases.id ~= 50 and _SpawnAtID ~= 47)) or ((_SpawnAtID ~= 50 and infoBases.id ~= 47)) then
 					
 						if (logDebugWhenSpawn == true) then
 							env.info('Valid Targets : ' .. infoBases.callsign)
