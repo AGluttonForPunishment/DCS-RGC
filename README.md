@@ -32,13 +32,13 @@ rgc.spawn(0, 1, 2, 10, 'Average', 10 , nil, 19)
 
 <br>
 
-Country: Russia
-Coalition list of units: Red
-Target Coalition: 2 (Blue)
-Group size : 10 (units)
-Skill of units: Avarage
-Driving Speed of units: 10
-SpawnZone not used : nil (must be nil if not used)
+Country: Russia<br>
+Coalition list of units: Red <br>
+Target Coalition: 2 (Blue)<br>
+Group size : 10 (units)<br>
+Skill of units: Avarage<br>
+Driving Speed of units: 10<br>
+SpawnZone not used : nil (must be nil if not used)<br>
 Spawn at Airbase ID : 19 (SpawnZone or SpawnAirbaseID must be used)
 <br>
 
